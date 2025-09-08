@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+}
+/* ehnii heseg */
+.head {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 83%;
+    height: 43.5px;
+    font-size: 18px;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+    z-index: 100;
+    
+    
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 32.5%;
+    justify-content: center;
+    gap: 50px;
+}
+.logo {
+    height: 35px;
+    width: 101px;
+}
+#eng {
+    height: 40px;
+    width: 40px;
+}
+#user {
+    height: 15px;
+    width: 11.67px;
+}
+.first {
+    background-image: url(./images/HeroImage.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 773px;
+    position: relative;
+    z-index: 1;
+}
+.gol {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 642.5px;
+}
+.first-see {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner {
+    font-size: 55px;
+}
+.bigbanner {
+    font-size: 180px;
+}
+.year {
+    font-size: 44px;
+}
+/* hoyrdoh heseg */
+.second {
+    background-image: url(./images/Location.png);
+    width: 100%;
+    height: 64vh;
+    position: relative;
+    display: flex;
+}
+.travel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+}
+.mark {
+    /* box-shadow:  -10px -10px rgba(157, 184, 218 ) , 10px 10px  rgba(34, 34, 34, 0.3); */
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+.card{
+    box-shadow:  -10px -10px rgba(157, 184, 218 ) , 10px 10px  rgba(34, 34, 34, 0.3);
+    width: 227px;
+    height: 333px;
+    border-radius: 40px;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.card p {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+.card-photo-1{
+    background-image: url("./images/Hover1.png");  
+}
+.card-photo-2{
+    background-image: url("./images/Hover2.png");  
+}
+.card-photo-3{
+    background-image: url("./images/Hover3.png");  
+}
+.card-photo-4{
+    background-image: url("./images/Hover4.png");  
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* gurawdah heseg */
+.third {
+    background-image: url(./images/Roadmap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 960px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bluepin {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+}
+.frame {
+    width: 245px;
+    height: 245px;
+    position: absolute;
+    display: none;
+}
+.frame1 {
+    left: 650px;
+    top: 180px;
+}
+.neg {
+    left: 725px;
+    top: 233px;
+}
+.frame2 {
+    left: 850px;
+    top: 256px;
+}
+.hoyr {
+    left: 930px;
+    top: 286px;
+}
+.frame3 {
+    left: 680px;
+    top: 378px;
+}
+.guraw {
+    left: 750px;
+    top: 452px;
+}
+.frame4 {
+    left: 1065px;
+    top: 395px;
+}
+.duruw {
+    left: 1185px;
+    top: 500px;
+}
+.frame5 {
+    left: 852px;
+    top: 250px;
+}
+.taw {
+    left: 972px;
+    top: 365px;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 90px;
+}
+.agency {
+    font-size: 42px;
+}
+.ready {
+    font-size: 20px;
+    color: #18181b;
+}
+.gazar {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-left: 120px;
+    width: 500px;
+    height: 580px;
+    gap: 20px;
+}
+.pinmark {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.hide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.size {
+    width: 500px;
+    height: 100px;
+    padding: 30px 30px 30px;
+    box-sizing: border-box;
+    border-radius: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.size:hover {
+    border-style: solid;
+    border-color: black;
+    border: px;
+}
+.day {
+    display: flex;
+    border-radius: 100%;
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.tseg {
+    width: 14px;
+    height: 14px;
+}
+.aimag {
+    font-size: 12px;
+}
+.place1 {
+    background-color: #EEE9D9;
+}
+.place1:hover ~ .frame4 {
+    display: block;
+}
+.place2 {
+    background-color: #8BB8C1CC;
+}.place2:hover ~ .frame2 {
+    display: block;
+}
+.place3 {
+    background-color: #AAD8D7CC;
+}.place3:hover ~ .frame3 {
+    display: block;
+}
+.place4 {
+    background-color: #8BC0BDCC;
+}
+.place4:hover ~ .frame1 {
+    display: block;
+}
+.place5 {
+    background-color: #97CCE0CC;
+}
+.place5:hover ~ .frame5 {
+    display: block;
+}
+/* duruwduh heseg */
+.fourth {
+    background-image: url(./images/Price.png);
+    width: 100%;
+    height: 925px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.price {
+    font-size: 42px;
+    color: black;
+}
+.choose {
+    font-size: 20px;
+    color: #18181BB2;
+}
+.headed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    height: 80px;
+    width: 100%;
+    margin-top: 40px;
+}
+.chance {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 157px;
+
+}
+.package {
+    width: 317px;
+    height: 435px;
+    background-color: white;
+    border-radius: 40px;;
+}
+.phead {
+    width: 317px;
+    height: 80px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 17px;
+}
+.love {
+    width: 36px; 
+    height: 36px;
+}
+.une {
+    margin-left: 20px;
+}
+.dollar {
+    font-size: 40px;
+}
+.songolt {
+    color: #919191;
+    height: 25px;
+}
+.daraalal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.popular {
+    color: white;
+    background-color: #6972B5;
+    width: 85px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-size: 18px;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+.check {
+    width: 20px;
+    height: 20px;
+}
+.bodytext {
+    font-size: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.test {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.select {
+    font-size: 16px;
+    width: 269px;
+    height: 40px;
+    background-color: #A4D1E2;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 991px;
+    height: 44px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.footerlink {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.link {    
+    width: 171px;
+    height: 44px;
+    color: #6972B5;
+    background-color: #FAFBFC;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+}
+.holboos {
+    width: 21.12px;
+    height: 21.12px;
+    margin-left: 20px;
+}
+/* hover */
+.package:hover {
+    box-shadow:  -10px -10px rgba(34, 34, 34, 0.3), 10px 10px rgba(157, 184, 218 ) ;
+}
+.select:hover {
+    background-color: rgba(24, 24, 27, 0.9);
+    color: white;
+}
